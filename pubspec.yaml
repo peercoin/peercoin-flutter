@@ -1,7 +1,7 @@
 name: peercoin
 description: A new Peercoin wallet.
 
-version: 0.6.3+58
+version: 0.6.4+59
 
 environment:
   sdk: '>=2.12.0 <3.0.0'
@@ -19,7 +19,7 @@ dependencies:
   bitcoin_flutter:
     git:
       url: https://github.com/Vesta-wallet/bitcoin_flutter.git
-      ref: null_safety
+      ref: null_safety_v1 #TODO v0.11 main net release: change to master
   hive: ^2.0.4
   hive_flutter: ^1.0.0
   hive_generator: ^1.1.0

@@ -13,6 +13,7 @@ class Coin {
   final double feePerKb;
   final String explorerTxDetailUrl;
   final String genesisHash;
+  final int txVersion;
 
   Coin({
     required this.name,
@@ -27,5 +28,6 @@ class Coin {
     required this.feePerKb,
     required this.explorerTxDetailUrl,
     required this.genesisHash,
+    required this.txVersion,
   });
 }

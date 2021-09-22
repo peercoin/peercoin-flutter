@@ -462,11 +462,12 @@ class ActiveWallets with ChangeNotifier {
             inputTx.add(utxo);
           }
         });
-        var network = AvailableCoins().getSpecificCoin(identifier).networkType;
+        var coinParams = AvailableCoins().getSpecificCoin(identifier);
+        var network = coinParams.networkType;
 
         //start building tx
         final tx = TransactionBuilder(network: network);
-        tx.setVersion(1);
+        tx.setVersion(coinParams.txVersion);
         if (_needsChange == true) {
           var changeAmount = _totalInputValue - _txAmount - fee;
           log('change amount $changeAmount');

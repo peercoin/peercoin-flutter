@@ -63,7 +63,7 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: null_safety
+      ref: null_safety_v1
       resolved-ref: "429aaf7b89de06af88778fd1316512a73a4ab653"
       url: "https://github.com/Vesta-wallet/bitcoin_flutter.git"
     source: git

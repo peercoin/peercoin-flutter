@@ -217,5 +217,7 @@
     "setup_price_feed_description": "Puteți activa feed-ul nostru opțional de prețuri externe aici.\nAcest lucru va permite ca soldul portofelului dvs. să fie afișat la valoarea de schimb în timp real.",
     "changelog_appbar": "Log-ul schimbărilor",
     "setup_price_feed_allow": "Permiteți feed-ul API cu preț extern",
-    "setup_price_feed_title": "API-uri externe"
+    "setup_price_feed_title": "API-uri externe",
+    "store_short": "",
+    "store_description": ""
 }
